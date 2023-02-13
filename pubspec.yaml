@@ -1,0 +1,41 @@
+name: firebase
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.4.1
+  cupertino_icons: ^1.0.2
+  jiffy: ^5.0.0
+  image_picker: ^0.8.6+1
+  http: ^0.13.5
+  shared_preferences: ^2.0.17
+  firebase_storage: ^11.0.10
+  cloud_firestore: ^4.3.1
+  firebase_messaging: ^14.2.1
+  firebase_auth: ^4.2.5
+  awesome_dialog: ^3.0.2
+  dropdown_search: ^5.0.5
+  google_sign_in: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    # - images/a_dot_ham.jpeg
